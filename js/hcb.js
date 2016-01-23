@@ -1,0 +1,3 @@
+/*<!--*/ 
+if(!window.hcb_user){hcb_user={  };} (function(){s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src", "http://www.htmlcommentbox.com/jread?page="+escape((window.hcb_user && hcb_user.PAGE)||(""+window.location)).replace("+","%2B")+"&mod=%241%24wq1rdBcg%248/EJigzqQFkQYWpArPXEX1"+"&opts=1302&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();
+/*-->*/

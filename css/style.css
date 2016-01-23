@@ -1,0 +1,608 @@
+/*------------------------------|~
+
+START CSS!
+Coded by : Firdam
+
+--------------------------------|~*/
+
+body{
+	background:url(../img/bg.png);
+	font-family:Calibri;
+}
+
+a:link {
+	font-size:14px;
+	color:#fff; 
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:visited {
+	color:#01735c;
+}
+
+a:hover {
+	color: #B8860B;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+/* Pemanggilan Type Font */
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Titillium WebBold'), local('TitilliumWeb-Bold'), url(../fonts/TitilliumWeb-Bold.woff) format('woff');
+}
+
+/* BAGIAN SELECTOR ID */
+#container{
+	max-width: 1080px;
+	background:url(../img/bg2.jpg);
+	margin: 20px auto;
+	box-shadow: 0px 0px 10px 2px #5A5A5A;
+	overflow:hidden;
+}
+
+#header{
+	background: #DAA520 url(../img/header.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+#header2{
+	background: transparent url(../img/bgwhite.png) repeat;
+}
+
+#judul{
+	position:relative;
+	margin:46px 0px 0px 15px;
+}
+
+#judul h1{
+	height:0px;
+}
+ 
+#judul h1 a{
+	font-family:'Titillium Web', sans-serif;
+	color:#FFEBCD; /* Warna Crimson */
+	text-decoration:none;
+	transition: all 0.3s ease-out;
+	font-size:32px;
+	text-shadow: 0 0 5px #000000; 
+}
+
+#judul h1 a:hover{
+	font-family:'Titillium Web', sans-serif;
+	font-size:32px;
+	text-decoration:none;
+	color:#FFFFFF;
+	text-shadow: 0 0 5px #000000;
+}
+
+#judul h2{
+	font-family:Rockwell Condensed;
+	font-size:75%;
+	color:#fff;
+	text-shadow: 0 0 5px #000000;
+	opacity:0.8;
+	padding:20px 0px 0px 3px;
+}
+
+#menu{
+	background: transparent url(../img/bgwhite.png) repeat;
+	height:35px;
+	width:auto;
+	margin:45px 0px 0px 0px;
+}
+
+#menu2{
+	height:30px;
+}
+
+#menu2 ul, li{ /* > hanya untuk */
+	list-style:none;
+	margin:0 0;
+	padding:0 0;
+}
+
+#menu ul{
+	height:30px;
+}
+
+#menu2 li{
+	float:left;
+	display:inline;
+}
+
+#menu2 li a{
+	display:block;
+	font-size:17px;
+	text-decoration:none;
+	padding:6px 25px 7px 25px;
+	text-shadow:1px 1px 1px #FFF;
+	color:#000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu2 input{
+	display:none;
+	margin:0 0;
+	padding:0 0;
+	width:30px;
+	height:30px;
+	opacity:0;
+	cursor:pointer;
+}
+
+#menu2 label{
+	display:none;
+	font-size:200%;
+	width:30px;
+	height:30px;
+	/* center vertically and horizontally */
+	line-height:30px;
+	text-align:center;
+}
+
+#menu2 li a:hover{
+	background-color:#000;
+	color:#fff;
+	transition: all 0.3s ease-out;
+	text-shadow:2px 2px 2px #000;
+	opacity:0.7;
+}
+
+#sidebarkiri{
+	float:left;
+	width:200px;
+	padding:12px 7px 6px 12px;
+}
+
+#sidebarkanan{
+	float:right;
+	width:200px;
+	padding:12px 12px 6px 7px;
+}
+
+#footer{
+	clear:both;
+	background-color:#000000;
+	opacity:0.5;
+	padding:4px;
+	color:#FF0;
+	text-align:right;
+	font-size:12px;
+}
+
+/* STYLE ARTIKEL */
+#isi{
+	float:left;
+	width:642px;
+	padding:12px 0px 6px 0px;
+}
+
+#isi h1{
+	font-size:24px;
+	border-bottom:2px dotted #DAA520;
+	color:#FFD700;
+	text-shadow:1px 1px 1px #000;
+	margin-top:-6px;
+}
+
+#isi .boxwidget3 h2{
+	background-color: #FFF8DC;
+	border:1px solid #000;
+	text-align:center;
+	width:100%;
+	height:20px;
+	color:#000;
+	opacity:0.7;
+	font-size:15px;
+	font-family:Times New Roman;
+}
+
+#isi .boxwidget3 p{
+	font-size:16px;
+	text-align:justify;
+	padding:0px 20px 0px 20px;
+}
+
+#isi .boxwidget3 a:link{
+	font-size:14px;
+	color:#000; 
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#isi .boxwidget3 a:visited{
+	color:#01735c;
+	opacity:0.4;
+}
+
+#isi .boxwidget3 a:hover{
+	color: #B8860B;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#isi .boxwidget3 .gambar{
+	padding-top:25px;
+	text-align:center;
+}
+
+#sharegal{
+	position:relative;
+	border:2px dotted #C0C0C0;
+	margin:5px 5px 20px 5px;
+	padding:5px;
+	background:#FFF8DC;
+}
+
+#sharegal hr{
+	border:1px solid #C0C0C0;
+}
+
+#sharegal .tanggal{
+	font-size:15px;
+	padding:2px;
+	font-family : Rockwell Condensed;
+}
+
+#sharegal .tombolshare{
+	font-size:15px;
+	padding:2px;
+	font-family : Rockwell Condensed;
+}
+
+#listuser{
+	background:transparent;
+	width:100%;
+	position:relative;
+}
+
+#listuser .kolom{
+	border:1px dotted #888;
+	text-align:center;
+	padding:10px;
+}
+
+#listuser .headerkolom{
+	border:1px dotted #888;
+	padding:10px;
+	font-family:calibri;
+	color:#ff0;
+	text-align:center;
+	font-weight:bold;
+	background-color:#000000;
+	opacity:0.5;
+}
+
+/* BAGIAN SELECTOR CLASS */
+.rapih{
+	clear:both;
+	overflow:hidden;
+}
+
+.link-kontak{
+	padding:2px 0px 2px 5px;
+	float:left;
+}
+
+.total_visitor{
+	padding:5px 20px 2px 0px;
+	float:right;
+}
+
+.headerwidget{
+	padding:4px;
+	font-family:calibri;
+	font-size:14px;
+	color:#ff0;
+	text-align:center;
+	font-weight:bold;
+	background-color:#000000;
+	opacity:0.5;
+}
+
+.boxwidget{
+	border:1px solid #01753c;
+	padding:6px;
+	margin:0px 0px 10px 0px;
+}
+
+.boxwidget p{
+	font-size:17px;
+	font-family:Rockwell Condensed;
+	text-align:center;
+	opacity:0.4;
+}
+
+.boxwidget2{
+	border:1px solid #01753c;
+	background: linear-gradient(#ffffff, #F5DEB3);
+	background: -webkit-linear-gradient(#ffffff, #F5DEB3); /* Support Google Chrome */
+	background: -o-linear-gradient(#ffffff, #F5DEB3); /* Support Opera Mini */
+	background: -moz-linear-gradient(#ffffff, #F5DEB3); /* Support Firefox */
+	text-align:justify;
+}
+
+.boxwidget2 .boxwidget3{
+	padding-right:300px;
+	margin:15px -279px 15px 15px;
+}
+
+.teks-footer{
+	float:right;
+}
+
+.doncaprio-share-buttons{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #BBBBBB;
+	background-color:#FFFFFF;
+	-webkit-box-shadow: #B3B3B3 5px 5px 5px;
+	-moz-box-shadow: #B3B3B3 5px 5px 5px;
+	box-shadow: #B3B3B3 5px 5px 5px;
+	padding: 5px;
+	margin: 10px;
+}
+
+.komentar{
+	background-color: #FFF8DC;
+	border:1px solid #000;
+	border-radius:5px;
+	width:100%;
+	height:50px;
+	color:#000;
+	font-size:19px;
+	font-family:Times New Roman;
+	margin:2px;
+}
+
+.komentar:hover{
+	background-color: #B8860B;
+	border:1px solid #000;
+	border-radius:5px;
+	width:100%;
+	height:50px;
+	color:#fff;
+	font-size:19px;
+	cursor:pointer;
+	font-family:Times New Roman;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.tombollogup{
+	background-color: #FFF8DC;
+	border:1px solid #000;
+	color:#000;
+	font-family:Times New Roman;
+}
+
+.tombollogup:hover{
+	background-color: #B8860B;
+	border:1px solid #000;
+	color:#fff;
+	cursor:pointer;
+	font-family:Times New Roman;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.inputan{
+	display: block;
+	border: 1px solid silver;
+	background: linear-gradient(#eee, #fff);
+	transition: all 0.3s ease-out;
+	padding: 3px;
+	color: #555;
+}
+
+.inputan:focus{
+	outline: none;
+	background-position: 0 -1.7em;
+}
+
+.sili{
+	list-style-type:square;
+}
+
+.notifsalah{
+	background:#ff0000;
+	width:235px;
+	height:20px;
+	color:#fff;
+	padding:4px;
+	border:1px solid #000000;
+	border-radius:5px;
+}
+
+.notifsalah img{
+	float:left;
+	padding-right:3px;
+}
+
+.notifbenar{
+	background:lime;
+	width:300px;
+	height:20px;
+	color:#fff;
+	padding:4px;
+	border:1px solid #000000;
+	border-radius:5px;
+}
+
+.notifbenar img{
+	float:left;
+	padding-right:3px;
+}
+
+.no_halaman{
+	position:relative;
+	border:1px solid #C0C0C0;
+	margin:10px 5px 20px 0px;
+	padding:5px;
+	background:#FFF8DC;
+}
+
+.no_halaman a{
+	padding:3px;
+}
+
+.boxwidget3 img{
+	max-width: 100%;
+	height: auto;
+}
+
+.tablearea{
+	position:relative;
+	max-width:100%;
+}
+
+.tablearea2{
+	position:relative;
+	max-width:100%;
+}
+
+/************************************************************************************
+									MEDIA QUERIES
+*************************************************************************************/
+/* untuk ukuran 1080px kebawah */
+@media screen and (max-width: 1080px) {
+	
+	#container {
+		width: 100%;
+	}
+	#sidebarkiri {
+		width: 25%;
+	}
+	#isi {
+		width: 68%;
+		float: right;
+	}
+	
+	#sidebarkanan {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+}
+
+
+/* untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 780px) {
+	#header, 
+	#footer{
+		text-align: center;
+	}
+	
+	/* ---------------------- */
+	
+	#menu2{
+		position:relative;
+	}
+	
+	#menu2 ul{
+		background: transparent url(../img/bgwhite.png) repeat;
+		z-index:9999;
+		position:absolute;
+		top:100%;
+		right:0;
+		left:0;
+		height:auto;
+		display:none; /* sembunyikan menu */
+	}
+	
+	#menu2 li{
+	    display:block;
+		float:none;
+		width:auto;
+		border-top:1px solid #000;
+	}
+	
+	#menu2 li:hover{
+		background-color:#000;
+		color:#fff;
+		transition: all 0.3s ease-out;
+		text-shadow:2px 2px 2px #000;
+		opacity:0.7;
+	}
+	
+	#menu2 input,
+	#menu2 label {
+		position:absolute;
+		top:0;
+		right:0;
+		display:block; /* show the menu icon */
+	}
+	
+	#menu2 input {z-index:4} /* always place the checkbox above the label element */
+
+	/* highlight the label element and show the menu if the checkbox is checked */
+	#menu2 input:checked + label {color:#B8860B;}
+	#menu2 input:checked ~ ul {display:block;-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;}
+	
+	/*  ------------------------------- */
+	
+	#sidebarkiri {
+		width: auto;
+		float: none;
+	}
+		
+	#isi {
+		width: auto;
+		float: none;
+	}
+	
+	#sidebarkanan {
+		width: auto;
+		float: none;
+	}
+	
+
+}
+
+/* untuk ukuran layar 425px kebawah */
+@media screen and (max-width: 425px) {
+	#judul h2{
+			font-family:Rockwell Condensed;
+			font-size:75%;
+			color:#fff;
+			text-shadow: 0 0 5px #000000;
+			opacity:0.8;
+			padding:56px 0px 0px 3px;
+		}
+		
+	.tablearea2{
+			position:relative;
+			max-width:100%;
+			overflow-x:scroll;
+		}
+
+/* untuk ukuran layar 315px kebawah */
+@media screen and (max-width: 315px) {
+	.tablearea{
+			position:relative;
+			max-width:100%;
+			overflow-x:scroll;
+		}
+}

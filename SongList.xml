@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+<!-- in xmlList tag included all the track files with details and covers and audio files in 3 types mp3, wav and ogg-->
+	<xmlList>
+	<!-- Each trackItem tag is one track for the player list if only one track exist in xml then will not exist list.-->
+	<!-- title tag set the title of the song(if empty will auto set as "Unknown Title Track")-->
+	<!-- album tag set the album name of the song(if empty will auto set as "Unknown Album")-->
+	<!-- artist tag set the artist name of the song(if empty will auto set as "Unknown Artist")-->
+	<!-- cover tag set the cover of the album(if empty will auto set default picture)-->
+	<!-- trackMpeg tag set the audio in mp3 format-->
+	<!-- trackWav tag set the audio in wav format-->
+	<!-- trackOgg tag set the audio in ogg format-->
+		<trackItem>
+			<title>Evolution</title>
+			<album>~Entering The New World~</album>
+			<artist>Fear, and Loathing in Las Vegas</artist>
+			<cover>img/mp3player/thumb5.jpg</cover>
+			<trackMpeg>mp3/evolution.mp3</trackMpeg>
+			<trackWav></trackWav>
+			<trackOgg></trackOgg>
+		</trackItem>		
+		<trackItem>
+			<title>Jump Around</title>
+			<album>Nextreme</album>
+			<artist>Fear, and Loathing in Las Vegas</artist>
+			<cover>img/mp3player/thumb4.jpg</cover>
+			<trackMpeg>mp3/jumparound.mp3</trackMpeg>
+			<trackWav></trackWav>
+			<trackOgg></trackOgg>
+		</trackItem>
+		<trackItem>
+			<title>Let Me Hear</title>
+			<album>Let Me Hear</album>
+			<artist>Fear, and Loathing in Las Vegas</artist>
+			<cover>img/mp3player/thumb2.jpg</cover>
+			<trackMpeg>mp3/letmehear.mp3</trackMpeg>
+			<trackWav></trackWav>
+			<trackOgg></trackOgg>
+		</trackItem>
+		<trackItem>
+			<title>Never Say Never</title>
+			<album>Phase 2</album>
+			<artist>Fear, and Loathing in Las Vegas</artist>
+			<cover>img/mp3player/thumb3.jpg</cover>
+			<trackMpeg>mp3/neversaynever.mp3</trackMpeg>
+			<trackWav></trackWav>
+			<trackOgg></trackOgg>
+		</trackItem>
+		<trackItem>
+			<title>Starburst</title>
+			<album>Starburst</album>
+			<artist>Fear, and Loathing in Las Vegas</artist>
+			<cover>img/mp3player/thumb1.jpg</cover>
+			<trackMpeg>mp3/starburst.mp3</trackMpeg>
+			<trackWav></trackWav>
+			<trackOgg></trackOgg>
+		</trackItem>
+	</xmlList>
+</main>

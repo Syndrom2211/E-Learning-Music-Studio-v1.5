@@ -1,0 +1,1 @@
+stLight.options({onhover:false , doNotHash: true, doNotCopy: true, hashAddressBar: false});
